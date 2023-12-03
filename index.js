@@ -3,8 +3,8 @@ if (localStorage.getItem("favouritesList") == null) {
     localStorage.setItem("favouritesList", JSON.stringify([]));
 }
 async function fetchMealsFromApi(url,value) {
-    const response=await fetch(`${url+value}`);
-    const meals=await response.json();
+    const response = await fetch(`${url+value}`);
+    const meals = await response.json();
     return meals;
 }
 // This function helps to display the meal card list in main body when the user searches for a particular meal.
@@ -13,7 +13,7 @@ function showMealList(){
     let arr=JSON.parse(localStorage.getItem("favouritesList"));
     let url="https://www.themealdb.com/api/json/v1/1/search.php?s="; //api url
     let html = "";
-    let meals=fetchMealsFromApi(url,inputName);
+    let meals = fetchMealsFromApi(url,inputName);
     //Meal search from api 
     meals.then(data=>{
         if (data.meals) {
