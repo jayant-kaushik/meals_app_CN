@@ -4,4 +4,4 @@ In this app you can search the recipe, as soon as you type something in the sear
 Another functionality is you can add your faviourite dish to a faviourite list by clicking the heart button. You can see the faviourite dishes by clicking te hamburger icon.
 You can get the github repo by clicking here - https://github.com/jayant-kaushik/meals_app_CN/
 You can get the hosted page on github pages by clicking here - https://jayant-kaushik.github.io/meals_app_CN/
-Also you can get a shot tour video of the app by clicking here - 
+Also you can get a shot tour video of the app by clicking here - https://www.youtube.com/watch?v=igVK9Jpo_IQ
