@@ -84,7 +84,7 @@ async function showMealDetails(id) {
         <div id="meal-details" class="mb-5">
         <div id="meal-header" class="d-flex justify-content-around flex-wrap">
         <div id="meal-thumbail">
-        <img class="mb-2" src="${data.meals[0].strMealThumb}" alt="" srcset="">
+        <img class="mb-2 img-thumbnail" src="${data.meals[0].strMealThumb}" alt="" srcset="">
         </div>
         <div id="details">
         <h3>${data.meals[0].strMeal}</h3>
